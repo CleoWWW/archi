@@ -1000,10 +1000,10 @@ header {
   align-items: flex-start;
 }
 .home .bg .main-content .banner-title {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .home .bg .main-content .banner-description {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .home .bg .main-content .action {
   color: #2b4248;
@@ -1013,7 +1013,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .home .bg .main-content .action:hover {
   color: #2b4248;
@@ -1166,7 +1166,7 @@ footer .footer__logo {
   width: 100%;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
   header {
     display: grid;
     grid-template-columns: 1fr auto minmax(400px, 3fr) 0.5fr;
