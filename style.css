@@ -965,7 +965,7 @@ header {
 
 .home .bg {
   padding-top: 150px;
-  height: 1000px;
+  //height: 1000px;
   background: linear-gradient(45deg, #e9d2c1 0%, #f1aaac 100%);
 }
 .home .bg::before,
