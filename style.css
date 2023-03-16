@@ -1165,7 +1165,7 @@ footer .footer__logo {
   width: 100%;
   text-align: center;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   header {
     display: grid;
     grid-template-columns: 1fr auto minmax(400px, 3fr) 0.5fr;
