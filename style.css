@@ -965,7 +965,7 @@ header {
 
 .home .bg {
   padding-top: 150px;
-  //height: 1000px;
+  height: 100%;
   background: linear-gradient(45deg, #e9d2c1 0%, #f1aaac 100%);
 }
 .home .bg::before,
@@ -994,7 +994,6 @@ header {
 .home .bg .main-content {
   z-index: 10;
 
-  height: 80vh;
   margin: 0 10vw;
   display: flex;
   flex-direction: column;
@@ -1024,6 +1023,8 @@ header {
 }
 .home .bg .main-content .banner-img {
   align-self: center;
+  width: 80%;
+  margin-bottom: 2rem;
 }
 
 .about .container {
@@ -1207,6 +1208,7 @@ footer .footer__logo {
     justify-content: flex-start;
   }
   .home .bg .main-content {
+    height: 80vh;
     margin: 0 10vw;
     display: grid;
     grid-template-columns: 4fr 2fr;
@@ -1226,6 +1228,7 @@ footer .footer__logo {
   }
   .home .bg .main-content .banner-img {
     grid-area: img;
+    width: 100%;
   }
 
   .about .container {
